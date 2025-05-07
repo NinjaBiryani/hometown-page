@@ -168,7 +168,7 @@ body {
 .WTG-box{
     max-height: 400px; 
     max-width: 290px; 
-    margin: 41.5px 20px; 
+    /* margin: 41.5px 20px;  */
     text-align: center; 
     padding: 10px; 
     /* background: linear-gradient(#ebf2fa 55%, #8ecae6); */
