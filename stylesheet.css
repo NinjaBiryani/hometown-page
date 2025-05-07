@@ -191,14 +191,9 @@ body {
     font-size: 31.5px; 
 }
 
-.WTG-places-1 {
+.WTG-places-1, .WTG-places-2, .WTG-places-3, .WTG-places-4 {
     display: flex; 
     /* flex-wrap: wrap;  */
-}
-
-.WTG-places-2 {
-    display: flex; 
-    /* flex-wrap: wrap;  */ 
 }
 
 .place-card {
@@ -215,6 +210,10 @@ body {
     display: flex; 
     align-items: center; 
 }
+
+/* .place-card:hover {
+    transform: scale(1.025); 
+} */
 
 .place-text {
     /* border: 3px solid green; */
@@ -300,3 +299,43 @@ body {
     object-fit: cover;
     object-position: 50% 50%; 
 } */
+
+#danzoo-img {
+    max-width: 255px; 
+    height: 150px; 
+    object-fit: cover; 
+    /* object-position: 15% 100%; */
+    border-radius: 2px; 
+    box-shadow: 1px 1px 4px black;
+    margin: 0px 10px 0 0px; 
+}
+
+#carnival-img {
+    max-width: 255px; 
+    height: 150px; 
+    object-fit: cover; 
+    /* object-position: 15% 100%; */
+    border-radius: 2px; 
+    box-shadow: 1px 1px 4px black;
+    margin: 0px 10px 0 0px; 
+}
+
+#murree-point-img {
+    max-width: 255px; 
+    height: 150px; 
+    object-fit: cover; 
+    /* object-position: 15% 100%; */
+    border-radius: 2px; 
+    box-shadow: 1px 1px 4px black;
+    margin: 0px 10px 0 0px; 
+}
+
+#golf-city-img {
+    max-width: 255px; 
+    height: 150px; 
+    object-fit: cover; 
+    /* object-position: 15% 100%; */
+    border-radius: 2px; 
+    box-shadow: 1px 1px 4px black;
+    margin: 0px 10px 0 0px; 
+}
